@@ -9,15 +9,13 @@ const Header = () => {
       width='full'
       align='center'
       alignSelf='flex-start'
-      // justifyContent='center'
       justifyContent='space-evenly'
+      // justifyContent='center'
       gridGap={2}
     >
       <Box>
         <Navbar />
       </Box>
-
-      {/* <Box>Box</Box> */}
 
       <Box>
         {/* <Box marginLeft='auto'> */}

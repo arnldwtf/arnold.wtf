@@ -4,7 +4,12 @@ import { TbBrandGithub } from 'react-icons/tb';
 
 const ContactBody = () => (
   <Box textAlign='center'>
-    <Link _hover={undefined} href='https://github.com/arnldwtf/arnoldwtf'>
+    <Link
+      _hover={undefined}
+      href='https://github.com/arnldwtf/arnoldwtf'
+      target='_blank'
+      rel='noopener noreferrer'
+    >
       <Button leftIcon={<TbBrandGithub />} size='sm' borderRadius='lg'>
         Github
       </Button>
