@@ -1,0 +1,75 @@
+{
+  "about": [
+    {
+      "name": "AJ Southammavong",
+      "title": "Software Developer",
+      "bio": "I am a software developer who loves to build and design web applications. I am also passionate about learning new technologies and staying up-to-date with the latest trends in the industry.",
+      "contact": {
+        "email": "arnoldsouth@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/arnoldsouth",
+        "github": "https://github.com/arnldwtf",
+        "discord": "https://discord.com/users/ajwtf"
+      }
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Aronson Advertising",
+      "title": "Digital Analyst",
+      "duration": "2023 - Present",
+      "technologies": [
+        "Google Analytics",
+        "Google Ads",
+        "Google Tag Manager",
+        "Google Data Studio"
+      ],
+      "responsibilities": [
+        "Client Onboarding: Efficiently integrate new clients into various marketing platforms, ensuring smooth transitions and setups.",
+        "Tracking & Goals: Develop, implement, and monitor tracking tags and goals to ensure accurate data collection and reporting.",
+        "Process Improvement: Continuously search for opportunities to enhance tracking and reporting processes for better performance and accuracy.",
+        "Data Layer Management: Determine and manage key-value pairs to be pushed out of the data layer for robust tracking.",
+        "Debugging: Identify and resolve web browser events or issues to maintain seamless user experiences.",
+        "Client-Specific Projects: Tailor projects to meet client's unique needs and objectives, ensuring personalized and effective solutions.",
+        "Report Development: Organize data and maintain detailed spreadsheets to develop comprehensive End-of-Month (EOM) and quarterly reports for each client.",
+        "Cross-Department Communication: Collaborate with other departments to ensure alignment and coherence in marketing strategies."
+      ],
+      "url": "https\"://\"www.aronsonads.com"
+    },
+    {
+      "company": "Freelance Web Developer",
+      "title": "Full Stack Developer",
+      "duration": "2022 - Present",
+      "technologies": [
+        "Google Analytics",
+        "Google Ads",
+        "Google Tag Manager",
+        "Google Data Studio"
+      ],
+      "responsibilities": ["Cost Accounting responsibilities"],
+      "url": "https\"://\"arnold.wtf"
+    },
+    {
+      "company": "Curology",
+      "title": "Senior Accountant",
+      "duration": "2019 - 2021",
+      "responsibilities": ["Cost Accounting responsibilities"],
+      "url": "https\"://\"www.curology.com"
+    },
+    {
+      "company": "Grant Thornton",
+      "title": "Senior Audit Associate",
+      "duration": "2016 - 2019",
+      "technologies": ["Microsoft Excel"],
+      "responsibilities": ["Audit responsibilities"],
+      "url": "https\"://\"www.grantthornton.com"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Science in Accounting",
+      "university": "University of Illinois, Chicago"
+    }
+  ]
+}

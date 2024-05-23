@@ -3,7 +3,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import Layout from './lib/layouts/Layout';
-import AppRouter from './lib/router/AppRouter';
+import AppRoutes from './lib/routes/AppRoutes';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <ChakraProvider>
         <Router>
           <Layout>
-            <AppRouter />
+            <AppRoutes />
           </Layout>
         </Router>
       </ChakraProvider>

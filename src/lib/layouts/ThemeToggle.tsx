@@ -1,5 +1,6 @@
 import { IconButton, useColorMode } from '@chakra-ui/react';
-import { TbMoonFilled, TbSun } from 'react-icons/tb';
+// import { TbMoon, TbSun } from 'react-icons/tb';
+import { TbMoonFilled, TbSunFilled } from 'react-icons/tb';
 
 const ThemeToggle = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -7,9 +8,10 @@ const ThemeToggle = () => {
   return (
     <IconButton
       aria-label='theme toggle'
-      icon={colorMode === 'light' ? <TbMoonFilled /> : <TbSun />}
+      // icon={colorMode === 'light' ? <TbMoon /> : <TbSun />}
+      icon={colorMode === 'light' ? <TbMoonFilled /> : <TbSunFilled />}
       onClick={toggleColorMode}
-      borderRadius='md'
+      borderRadius='lg'
       size='sm'
     />
   );
