@@ -1,10 +1,12 @@
-import { Box, Button, Flex, Link, Text } from '@chakra-ui/react';
+import { Box, Flex, HStack, Text } from '@chakra-ui/react';
+import { getData } from '../../config/getData';
 
-import { TbBrandGithub } from 'react-icons/tb';
+const HomeBody = () => {
+  const data = getData();
 
-const HomeBody = () => (
-  <Box textAlign='center'>
-    <Link
+  return (
+    <Box>
+      {/* <Link
       _hover={undefined}
       href='https://github.com/arnldwtf/arnoldwtf'
       target='_blank'
@@ -13,12 +15,23 @@ const HomeBody = () => (
       <Button leftIcon={<TbBrandGithub />} size='sm' borderRadius='lg'>
         Github
       </Button>
-    </Link>
+    </Link> */}
 
-    <Flex marginY={4} justifyContent='center' gridGap={2}>
-      <Text fontSize='sm'>Home Body Component</Text>
-    </Flex>
-  </Box>
-);
+      <Flex marginY={4} justifyContent='center' gridGap={2}>
+        {Object.entries(data.about).map(([key, value]) => (
+          <div key={key}>
+            <Box>
+              <HStack marginY={2} justifyContent='center'>
+                <Text fontSize='sm' fontWeight=''>
+                  {value.bio}
+                </Text>
+              </HStack>
+            </Box>
+          </div>
+        ))}
+      </Flex>
+    </Box>
+  );
+};
 
 export default HomeBody;

@@ -1,10 +1,6 @@
 import { Flex, IconButton } from '@chakra-ui/react';
 import { RiHome2Fill } from 'react-icons/ri';
-import {
-  TbBrandGithubFilled,
-  TbBriefcase2Filled,
-  TbMailFilled,
-} from 'react-icons/tb';
+import { TbAppsFilled, TbFileFilled, TbMailFilled } from 'react-icons/tb';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -28,6 +24,7 @@ const Navbar = () => {
         <IconButton
           aria-label='home'
           icon={<RiHome2Fill />}
+          // icon={<RiHome2Line />}
           // icon={colorMode === 'light' ? <TbMoonFilled /> : <TbSun />}
           // onClick={toggleColorMode}
           borderRadius='lg'
@@ -38,7 +35,9 @@ const Navbar = () => {
       <NavLink to='/projects'>
         <IconButton
           aria-label='projects'
-          icon={<TbBrandGithubFilled />}
+          // icon={<TbBrandGithubFilled />}
+          // icon={<TbApps />}
+          icon={<TbAppsFilled />}
           // icon={<TbDeviceDesktopCode />}
           // icon={colorMode === 'light' ? <TbMoonFilled /> : <TbSun />}
           // onClick={toggleColorMode}
@@ -50,7 +49,9 @@ const Navbar = () => {
       <NavLink to='/experience'>
         <IconButton
           aria-label='experience'
-          icon={<TbBriefcase2Filled />}
+          // icon={<TbBriefcase2Filled />}
+          // icon={<TbFileCv />}
+          icon={<TbFileFilled />}
           // icon={colorMode === 'light' ? <TbMoonFilled /> : <TbSun />}
           // onClick={toggleColorMode}
           borderRadius='lg'
@@ -61,6 +62,7 @@ const Navbar = () => {
       <NavLink to='/contact'>
         <IconButton
           aria-label='contact'
+          // icon={<TbMail />}
           icon={<TbMailFilled />}
           // icon={colorMode === 'light' ? <TbMoonFilled /> : <TbSun />}
           // onClick={toggleColorMode}
@@ -68,10 +70,6 @@ const Navbar = () => {
           size='sm'
         />
       </NavLink>
-
-      {/* <Box marginLeft='auto'>
-        <ThemeToggle />
-      </Box> */}
     </Flex>
   );
 };

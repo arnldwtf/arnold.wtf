@@ -1,5 +1,5 @@
 import { Box, Button, Grid, Heading } from '@chakra-ui/react';
-import { TbArrowLeft } from 'react-icons/tb';
+import { TbArrowBigLeftFilled } from 'react-icons/tb';
 
 import { useNavigate } from 'react-router-dom';
 
@@ -18,11 +18,13 @@ const PageNotFound = () => {
 
       <Box>
         <Button
-          leftIcon={<TbArrowLeft />}
+          // leftIcon={<TbArrowBigLeftFilled />}
           size='sm'
           borderRadius='lg'
           onClick={handleBackToHome}
-        ></Button>
+        >
+          <TbArrowBigLeftFilled />
+        </Button>
       </Box>
     </Grid>
   );
