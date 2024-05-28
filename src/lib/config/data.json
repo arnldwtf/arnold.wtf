@@ -5,7 +5,7 @@
       "title": "Software Developer",
       "bio": "I am a software developer who loves to build and design web applications. I am also passionate about learning new technologies and staying up-to-date with the latest trends in the industry.",
       "contact": {
-        "email": "arnoldsouth@gmail.com",
+        "email": "mailto:arnoldsouth@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/arnoldsouth",
         "github": "https://github.com/arnldwtf",
         "discord": "https://discord.com/users/ajwtf"
@@ -24,6 +24,9 @@
         "Google Tag Manager",
         "Google Data Studio"
       ],
+      "summary": [
+        "Efficiently integrated new clients into marketing platforms, developed and monitored tracking for accurate reporting, enhanced processes, managed data layers, resolved web issues, tailored client projects, developed comprehensive reports, and ensured cross-departmental alignment in marketing strategies"
+      ],
       "responsibilities": [
         "Client Onboarding: Efficiently integrate new clients into various marketing platforms, ensuring smooth transitions and setups.",
         "Tracking & Goals: Develop, implement, and monitor tracking tags and goals to ensure accurate data collection and reporting.",
@@ -34,35 +37,93 @@
         "Report Development: Organize data and maintain detailed spreadsheets to develop comprehensive End-of-Month (EOM) and quarterly reports for each client.",
         "Cross-Department Communication: Collaborate with other departments to ensure alignment and coherence in marketing strategies."
       ],
-      "url": "https\"://\"www.aronsonads.com"
+      "url": "https://www.aronsonads.com"
     },
     {
       "company": "Freelance Web Developer",
       "title": "Full Stack Developer",
       "duration": "2022 - Present",
       "technologies": [
-        "Google Analytics",
-        "Google Ads",
-        "Google Tag Manager",
-        "Google Data Studio"
+        "HTML/CSS",
+        "JavaScript/TypeScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "MongoDB/Mongoose",
+        "PostgreSQL",
+        "Git"
       ],
-      "responsibilities": ["Cost Accounting responsibilities"],
-      "url": "https\"://\"arnold.wtf"
+      "summary": [
+        "As a seasoned Full Stack Web Developer with expertise in MongoDB, Mongoose, Express, Node.js, React, RESTful APIs, PostgreSQL, and Git, I deliver high-quality, scalable web applications by collaborating with diverse clients, designing robust databases, creating efficient back-end systems, and building responsive front-end interfaces, while valuing clear communication and timely delivery"
+      ],
+      "responsibilities": [
+        "As a seasoned Full Stack Web Developer with extensive experience in both front-end and back-end technologies, I have a proven track record of delivering high-quality, scalable web applications. My expertise spans across a variety of modern technologies including MongoDB, Mongoose, Express, Node.js, React, RESTful APIs, PostgreSQL, and Git.",
+
+        "Over the past few years, I have successfully collaborated with clients from diverse industries, helping them bring their digital visions to life. My proficiency in MongoDB and PostgreSQL allows me to design and implement robust database solutions tailored to specific project requirements. With Mongoose and Express, I create efficient and secure back-end systems that power dynamic web applications.",
+
+        "On the front-end, my skills with React enable me to build responsive and user-friendly interfaces that provide seamless user experiences. I am adept at creating RESTful APIs to ensure smooth and efficient communication between the client and server, enhancing the overall functionality and performance of applications.",
+
+        "As a freelancer, I value clear communication, timely delivery, and a collaborative approach to problem-solving. I am passionate about staying updated with the latest industry trends and continuously improving my skill set to provide the best solutions for my clients.",
+
+        "Whether working on a complex enterprise application or a simple, elegant web solution, my goal is to deliver exceptional results that exceed client expectations. Let's connect and explore how I can contribute to your next project!"
+      ],
+      "url": "https://arnold.wtf"
     },
     {
       "company": "Curology",
       "title": "Senior Accountant",
       "duration": "2019 - 2021",
-      "responsibilities": ["Cost Accounting responsibilities"],
-      "url": "https\"://\"www.curology.com"
+      "technologies": [
+        "Finanial Statement Auditing and Reporting (US GAAP)",
+        "Cost Accounting",
+        "Microsoft Excel/Google Sheets",
+        "NetSuite",
+        "QuickBooks",
+        "Expensify",
+        "Bill.com"
+      ],
+      "summary": [
+        "Spearheaded the implementation of NetSuite's inventory module and a cost accounting system. Processed recurring accounts payable via Bill.com and Expensify, approved reimbursements, and categorized corporate spending. Maintained a master tracker for expense consistency. Prepared month-end journal entries and balance sheet reconciliations. Conducted financial analysis and presented findings. Improved business processes and documentation. Collaborated on accruals, vendor management, and ad hoc projects. Automated accounting and reporting processes, participated in budgeting, assisted with payroll/HR migration, and supported annual tax filings"
+      ],
+      "responsibilities": [
+        "Spearheaded the implementation of the inventory module within NetSuite, and implemented a cost accounting system for inventory management",
+        "Processed recurring accounts payable via Bill.com and Expensify, approved out-of-pocket expense reimbursements, and categorized corporate credit card spending",
+        "Maintained a master tracker for consistent expense categorization, including vendors, GL categories, and business owners/approvers",
+        "Prepared month-end journal entries and balance sheet reconciliations to support a timely month-end close process",
+        "Conducted financial analysis and presented findings to the accounting and finance team",
+        "Continuously improved business processes, systems, and documentation",
+        "Partnered with various departments on accruals, vendor management, and ad hoc projects",
+        "Drove automation of accounting and reporting processes",
+        "Participated in the annual budgeting process",
+        "Assisted with the migration to a new payroll/HR/benefits platform",
+        "Supported annual tax filing and reporting deadlines",
+
+        "Primary owner of all bookkeeping and inventory-related matters during Company's formative years",
+        "Oversaw, managed, and recorded month-end inventory, COGS, journal entries within QuickBooks",
+        "Established and streamlined cost accounting processes, ensuring financial accuracy, and timely reporting",
+        "Vastly boosted efficiency in inventory tracking and reporting by designing and implementing a FIFO Excel template to automatically compute on-hand inventory balance, both in terms of quantity and dollar value",
+        "Worked cross-functionally to design, build, and implement complex management systems, processes, and policies",
+        "Successfully led new systems integration; strategized, built, and implemented NetSuite for inventory management while ensuring smooth transition from legacy systems, which increased org-wide efficiency and scalability",
+        "Mentored 7 junior teammates, training them on processes, relevant programs, and best practices"
+      ],
+      "url": "https://curology.com"
     },
     {
       "company": "Grant Thornton",
       "title": "Senior Audit Associate",
       "duration": "2016 - 2019",
       "technologies": ["Microsoft Excel"],
-      "responsibilities": ["Audit responsibilities"],
-      "url": "https\"://\"www.grantthornton.com"
+      "summary": [
+        "Planned and executed financial audits for public and private clients, managed engagement budgets, drafted international guidelines, and mentored associates to foster professional growth"
+      ],
+      "responsibilities": [
+        "Planned, executed, and completed financial statement audits while managing audit engagement's budget",
+        "Led audit engagements with 2 public company clients and 4 private company clients",
+        "Drafted detailed guidelines for international collaborators, ensuring clarity in tasks and adherence to audit standards",
+        "Mentored and provided guidance to associates and interns, fostering a culture of continuous learning and professional growth within the team"
+      ],
+      "url": "https://www.grantthornton.com"
     }
   ],
 
